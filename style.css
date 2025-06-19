@@ -1,0 +1,53 @@
+body {
+  background-color: #1e1e1e;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.widget {
+  display: flex;
+  background-color: #3498db;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+}
+
+.time {
+  background-color: #111;
+  padding: 20px 30px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.time .red {
+  color: red;
+}
+
+.time .green {
+  color: limegreen;
+}
+
+.time .blue {
+  color: blue;
+}
+
+.date {
+  background-color: #3498db;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+#date {
+  font-size: 36px;
+  font-weight: bold;
+}
